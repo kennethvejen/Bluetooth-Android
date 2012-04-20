@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:orientation="vertical" >
+     
+ 	<TextView 
+		android:gravity="center" 
+		android:textStyle="bold" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text="@string/ValveText" 
+		android:textSize="25dp" /> 
+		
+		<TableLayout 
+	 	    android:layout_width="wrap_content" 
+	 	    android:layout_height="wrap_content" 
+	 	    android:stretchColumns="*">
+	 	
+	 	<TableRow>
+		  <Button 
+		      android:id="@+id/bV1" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content" 
+		      android:text="@string/Valve1" 
+		      android:textSize="25dp" 
+		      android:padding="20dp" /> 
+		  <Button 
+		      android:id="@+id/bV2" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content" 
+		      android:text="@string/Valve2" 
+		      android:textSize="25dp" 
+		      android:padding="20dp" /> 
+		  <Button 
+		      android:id="@+id/bV3" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content" 
+		      android:text="@string/Valve3" 
+		      android:textSize="25dp" 
+		      android:padding="20dp" /> 
+	 	 </TableRow>
+ 
+		<TableRow>
+		  <Button 
+		      android:id="@+id/bV4" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content" 
+		      android:text="@string/Valve4" 
+		      android:textSize="25dp" 
+		      android:padding="20dp" /> 
+		  <Button 
+		      android:id="@+id/bV5" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content" 
+		      android:text="@string/Valve5" 
+		      android:textSize="25dp" 
+		      android:padding="20dp" /> 
+		  <Button 
+		      android:id="@+id/bV6" 
+		      android:layout_width="wrap_content" 
+		      android:layout_height="wrap_content" 
+		      android:text="@string/Valve6" 
+		      android:textSize="25dp" 
+		      android:padding="20dp" /> 
+	  	</TableRow>
+  	</TableLayout>
+
+</LinearLayout>

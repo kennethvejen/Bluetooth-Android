@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, BluetoothMain!</string>
+    <string name="app_name">GlovaAS</string>
+    <string name="Valve1">V1</string>
+    <string name="Valve2">V2</string>
+    <string name="Valve3">V3</string>
+    <string name="Valve4">V4</string>
+    <string name="Valve5">V5</string>
+    <string name="Valve6">V6</string>
+    <string name="ValveText">Vavles</string>
+
+</resources>
